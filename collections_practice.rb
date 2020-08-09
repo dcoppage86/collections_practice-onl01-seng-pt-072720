@@ -42,10 +42,10 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-    if element != 1 
-      word = word + "s"
+    if index != 1 
+      element = element + "s"
     else 
-      word = word
+      element = element
     end
   end
 end
