@@ -40,10 +40,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.map do |element, index|
-    index == 1 ? element : element[element.length] == "s"
-  end
-  array
+[1,2].each_with_index.collect{|element, index| }
 end
 
   
