@@ -9,4 +9,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.count do |animals
+  array.count do |left, right|
+    left.length == right.length
+  end
+end
