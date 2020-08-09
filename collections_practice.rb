@@ -8,4 +8,5 @@ def sort_array_desc(array)
   end
 end
 
-def 
+def sort_array_char_count(array)
+  array.count do |animals
