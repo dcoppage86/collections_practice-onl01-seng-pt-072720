@@ -42,7 +42,8 @@ end
 
 def add_s
   [1,2].each_with_index.collect{|element, index| }
-  element[element.length] = "s" 
+  element[element.length] = "s" unless index == 1 
+end
 
 
   
