@@ -40,7 +40,9 @@ def sum_array(array)
 end
 
 
-[1,2].each_with_index.collect{|element, index| }
+def add_s
+  [1,2].each_with_index.collect{|element, index| }
+  index 
 
 
   
